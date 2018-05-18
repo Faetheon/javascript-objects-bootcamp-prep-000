@@ -1,4 +1,4 @@
-let playlist = { artistName: "Moi", songTitle: "The River" };
+var playlist = new.Object();
 function updatePlaylist(playlist, artistName, songTitle) {
   return playlist.artistName;
 }
