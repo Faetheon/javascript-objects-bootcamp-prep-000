@@ -1,4 +1,4 @@
 let playlist = { artist: "Moi", song: "The River" };
 function updatePlaylist(playlist, artistName, songTitle) {
-  return this.playlist;
+  return playlist.artist;
 }
